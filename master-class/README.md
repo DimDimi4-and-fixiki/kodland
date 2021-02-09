@@ -1,6 +1,7 @@
 # Мастер-класс по Python
 
-## Ссылка на задачи: <a href="https://mkonline.kodland.org/course5/task1/"> Задачи тут<a/>
+## Ссылка на задачи: <a href="https://mkonline.kodland.org/course5/task1/"> Задачи тут<a/>  
+## Презентация про Python и наш курс :) <a href="https://docs.google.com/presentation/d/1E8gUJsw-DhOv3FAODuXG-mPmC5EEIwJjLxez_GCd4Xc/edit">Перзентация здесь)<a/>
 
 ## 1. Hello world. 
 
