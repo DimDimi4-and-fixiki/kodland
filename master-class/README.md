@@ -1,5 +1,7 @@
 # Мастер-класс по Python
 
+## Ссылка на задачи: <a href="https://mkonline.kodland.org/course5/task1/"> Задачи тут<a/>
+
 ## 1. Hello world. 
 
 ## Программа,  которая выводит "Hello world !" на экран.
