@@ -1,9 +1,10 @@
 # Мастер-класс по Python
 
 ## Ссылка на задачи: <a href="https://mkonline.kodland.org/course5/task1/"> Задачи тут<a/>  
+
 ## Презентация про Python и наш курс :) <a href="https://docs.google.com/presentation/d/1E8gUJsw-DhOv3FAODuXG-mPmC5EEIwJjLxez_GCd4Xc/edit">Перзентация здесь<a/>
 
-## 1. Hello world. 
+## 1. Hello world <img src="https://vk.com/emoji/e/f09fa49af09f8fbb.png" height="30px"/>
 
 ## Программа,  которая выводит "Hello world !" на экран.
 
@@ -24,7 +25,7 @@ print('Hello world!')  # выводит Hello world
 
 
 
-## 2. Вычисления в Python
+## 2. Вычисления в Python <img src="https://vk.com/emoji/e/f09f938a.png" height="30px"/>
 
 Выведем на экран сумму двух чисел, например,  **`5 + 3`** и произведение двух чисел
 
