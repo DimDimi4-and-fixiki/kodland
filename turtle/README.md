@@ -1,5 +1,5 @@
-# Основные функции Черепашки (turtle)
+# Основные функции Черепашки (turtle) <img src="https://vk.com/emoji/e/f09f90a2.png" height="30px"/> <img src="https://vk.com/emoji/e/f09f90a2.png" height="30px"/> <img src="https://vk.com/emoji/e/f09f90a2.png" height="30px"/>
 
 <img src="image_assets/turtle.png"/>
 
-**Чтобы Черепашка выглядела черепашкой можно написать `t.shape("turtle")`**
+**Чтобы Черепашка выглядела как черепеха, а не как стрелочка можно написать `t.shape("turtle")`**
