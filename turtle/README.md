@@ -3,3 +3,7 @@
 <img src="image_assets/turtle.png"/>
 
 **Чтобы Черепашка выглядела как черепеха, а не как стрелочка можно написать `t.shape("turtle")`**
+
+
+
+Материалы школы  <a href="https://kodland.org/">Kodland<a/>
