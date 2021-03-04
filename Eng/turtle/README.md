@@ -2,7 +2,7 @@
 
 <img src="img_assets/turtle.png"/>
 
-**If we want our turtle to look like turtle wi can use  `t.shape("turtle")`**
+**If we want our turtle to look like turtle we can use  `t.shape("turtle")`**
 
 
 
