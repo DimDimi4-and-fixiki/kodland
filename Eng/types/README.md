@@ -80,7 +80,7 @@ print(fahrenheit)  # Prints the number
 
 #### Assignment with `input()`
 
-#### The type of the data which is got by `input()` is `str`
+#### Remember that `input()` gives `str` type
 
 
 
