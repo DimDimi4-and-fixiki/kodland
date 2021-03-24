@@ -1,3 +1,3 @@
 ### Условные операторы в Python
 
-<img src="img_assets/commadns.jpg"/>
+<img src="img_assets/commands.jpg"/>
