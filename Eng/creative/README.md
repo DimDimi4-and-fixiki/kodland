@@ -18,7 +18,7 @@ print("Hi! My name is " + name +" and I am " + zodiak + ". I am " + age + " year
 
 
 
-#### Come up with an idea of drawing and draw it with `turtle`. Please, use `variables`. I draw an animal
+#### 2. Come up with an idea of drawing and draw it with `turtle`. Please, use `variables`. I draw an animal
 
 ```python
 import turtle
