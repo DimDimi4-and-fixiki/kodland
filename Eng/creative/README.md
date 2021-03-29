@@ -107,3 +107,19 @@ t.forward(40)
 #### Result:
 
 <img src="img_assets/animal.png"/>
+
+### Comments on a home task
+
+#### 2nd Problem. Given a 3-digit number, print `sum of the digits`.
+
+```python
+num = int(input())  # int
+
+# We want to get the digits and to count the sum
+first = num // 100
+second = (num // 10) % 10
+last = num % 10
+res = first + second + last
+print(res)
+```
+
