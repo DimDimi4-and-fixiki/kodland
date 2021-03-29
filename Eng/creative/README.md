@@ -1,0 +1,109 @@
+### Creative tasks with `turtle` and `input()`
+
+#### 1. Ask some questions and make a story with the answers
+
+```python
+zodiak = input("Enter the character's zodiac sign ")
+age = input("Enter the character's age ")
+name = input("Enter the character's name ")
+location = input("Where do you live ")
+pet = input("What is your pet ")
+food = input("What is your favourite food")
+
+print("Hi! My name is " + name +" and I am " + zodiak + ". I am " + age + " years old." 
+ + " I live in " + location + " I have a " + pet + " My favourite food is " + food)
+      
+
+```
+
+
+
+#### Come up with an idea of drawing and draw it with `turtle`. Please, use `variables`. I draw an animal
+
+```python
+import turtle
+
+t = turtle.Turtle()
+
+# Let's remember the commands for the turtle:
+# right() - turn the turtle to the right;
+# forward(), backward() - move the turtle forward or backward.
+
+# up(), removes the pen from the canvas (disables drawing)
+# You can use the down() command to enable drawing again.
+# t. color ("red") - change the drawing color.
+# t. speed(10) - change the drawing speed.
+
+t.forward(50) 
+t.left(90) 
+t.forward(50) 
+t.left(90) 
+t.forward(50) 
+t.left(90) 
+t.forward(50) 
+t.left(180) 
+
+t.forward(50)
+
+t.right(45)
+t.forward(35.35533905932738)
+t.right(90)
+t.forward(35.35533905932738)
+
+t.up()
+t.right(45)
+t.forward(50)
+
+t.left(90)
+t.forward(100)
+t.down()
+
+
+
+height = 60
+lenght = 120
+leg_angle = 45
+leg_lenght = 20
+t.left(leg_angle)
+t.forward(leg_lenght)
+t.right(180 - leg_angle)
+t.forward(leg_lenght)
+t.up()  # Stop drawing
+t.backward(20)
+t.left(90)
+t.forward(lenght)
+t.down()  # Starts drawing again
+t.left(leg_angle)
+t.forward(leg_lenght)
+t.right(180 - leg_angle)
+t.forward(leg_lenght)
+t.backward(leg_lenght)
+t.right(85)
+t.forward(lenght + 30)
+t.right(90)
+t.forward(height)
+t.right(90)
+t.forward(lenght + 30)
+t.right(90)
+t.forward(height)
+
+t.backward(height)
+t.right(90)
+t.forward(lenght + 10)
+t.right(90)
+t.forward(20)
+t.left(90)
+t.forward(30)
+t.right(90)
+t.forward(40)
+t.right(90)
+t.forward(70)
+t.right(90)
+t.forward(40)
+t.right(90)
+t.forward(40)
+```
+
+#### Result:
+
+<img src="img_assets/animal.png"/>
