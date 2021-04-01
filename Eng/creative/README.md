@@ -142,7 +142,7 @@ seconds_in_minute = 60  # Num of seconds in a minute
 second_in_hour = 3600  # Num of second in one hour
 ```
 
-**As we know all the numbers, we need to calculate the result, we divide `N` by `number of seconds in one hour` to get hours and  `N` by `number of seconds in one minute` to get minutes. **
+**As we know all the numbers, we need to calculate the result, we divide `N` by `number of seconds in one hour` to get hours and  `N` by `number of seconds in one minute` to get minutes.**
 
 **We need to use `//` here to get integer part of the result, so we do:**
 
