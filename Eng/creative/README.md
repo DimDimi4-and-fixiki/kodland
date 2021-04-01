@@ -123,3 +123,30 @@ res = first + second + last
 print(res)
 ```
 
+#### 3rd Assignment
+
+#### You are given an integer N – the number of seconds since midnight.
+
+#### Write  a code that will determine how many full hours and minutes have passed since midnight.
+
+**Firstly, we need to read the number that user entered, so we use `input()` function**:
+
+```python
+N = int(input("Enter the number of seconds"))
+```
+
+**To count the number of hours we need to know how many seconds in one hour, and to count the number of minutes we need to know how many seconds in one minute, let's store these numbers in `variables`**:
+
+```python
+seconds_in_minute = 60  # Num of seconds in a minute
+second_in_hour = 3600  # Num of second in one hour
+```
+
+**As we know all the numbers, we need to calculate the result, we divide `N` by `number of seconds in one hour` to get hours and  `N` by `number of seconds in one minute` to get minutes. We need to use `//` here to get integer part of the result, so we do:**
+
+```python
+hours = N // second_in_hour  # Counts num of hours
+minutes = N // seconds_in_minute  # Counts num of minutes
+print(hours, minutes)  # Prints the results
+```
+
