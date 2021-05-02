@@ -1,5 +1,5 @@
 ## `for` loop
-#### with a `for` loop you can easily loop through the collection  
+#### With a `for` loop you can easily loop through the collection  
 ```python
 for elem in [3, "Dima", "Nicole", 10]:
     print(elem)
