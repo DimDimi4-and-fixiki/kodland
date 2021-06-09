@@ -61,4 +61,28 @@ console = [[10426448, 12750000, 1448665],
             
 print(console)
 console.append([19000000, 490000000, 320000000])
+```  
+**For the first home assignment you can try to go with:**  
+```python 
+u1 = [3, 3, 3]
+u2 = [2, 2, 2]
+u3 = [3, 2, 'no']
+u4 = [3, 3, 'no']
+
+score = [u1, u2, u3, u4]
+
+print(score[1][2])  # gets a particular score
+```
+**To count the mean, it is easy to use the formula:**
+```python
+print((score[0][0] + score[0][1] + score[0][2])/3)
+```
+**And to count the sum of all numbers you can go with a for loop and get through each row and then inside of each row go through the elements which are inside of it:**  
+```python
+summ = 0
+for i in score:
+    for j in i:
+        if j != 'no':
+            summ += j
+print(summ)
 ```
