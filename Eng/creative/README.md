@@ -152,3 +152,34 @@ minutes = N // seconds_in_minute  # Counts num of minutes
 print(hours, minutes)  # Prints the results
 ```
 
+## Comments on the hometask  
+**1. Draw a regular hexagon**  
+As it is said in the assignment in a regular hexagon all angles are `120 degrees`, it means that we should rotate our turtle by `60 degrees` every time  
+```python
+import turtle
+
+t = turtle.Turtle()
+
+
+t.forward(100)
+t.right(60)
+t.forward(100)
+t.right(60)
+t.forward(100)
+t.right(60)
+t.forward(100)
+t.right(60)
+t.forward(100)
+t.right(60)
+t.forward(100)
+t.right(60)
+```  
+**You are given a 3-digit number. Find the sum of all digits**  
+To get the number we can use `input()` funtion  
+```python
+a = int(input())
+```  
+The furst digit would be `a // 100`  
+The second digit is `(a // 10) % 10` 
+The third digit is `a % 10`  
+**You have to store all the digits in `variables` and then print the sum of those variables**   
