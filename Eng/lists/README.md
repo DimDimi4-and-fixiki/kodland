@@ -86,3 +86,58 @@ for i in score:
             summ += j
 print(summ)
 ```
+
+**2nd Assignment from the hometask**  
+**To create the journal and mark it all with `"no activity"`, we firstly go with**  
+```python
+Mon = []
+Tue = []
+Wed = []
+Th = []
+Fr = []
+Sat = []
+Sun = []
+journal = [Mon, Tue, Wed, Th, Fr, Sat, Sun]
+
+for i in range(0, 7):
+    journal[i].append('no activity')
+```  
+
+**Then we need to get the commands from the user, we can use `while` loop and `if` statements for it**  
+```python
+while(True):
+    line = input('Enter a command')
+    if(line == 'print'):
+        print(journal)
+    elif(line == 'edit'):
+        line2 = input('What activity do you want to add?')
+        line3 = int(input('what day of the week?  0 - 6'))
+        # Here you need to edit the journal, please, do it
+```  
+**At the end, you would need to print the journal :)**  
+
+It is, basically, similar to the previous one, but we need to add some more commands  
+
+```python
+while(True):
+    line = input('Enter a command')
+    if(line == 'print'):
+        print(journal)
+    elif(line == 'edit'):
+        line2 = input('What activity do you want to add?')
+        line3 = int(input('what day of the week? 0 - 6'))
+        line4 = int(input('what time of day? 0 - 2'))
+        journal[line3][line4] = line2
+    elif(line == 'delete'):
+        line3 = int(input('what day of the week to delete? 0 - 6'))
+        line4 = int(input('what time of day to delete? 0 - 2'))
+        # Here you need to put on the day and on the time the value "no activity"
+        # Write your code here
+    elif(line == 'check'):
+        line3 = int(input('what day of the week? 0 - 6'))
+        line4 = int(input('what time of day? 0 - 2'))
+        ## Print the journal on the day and on the time here :)
+    elif(line == 'help'):
+        print('List of commands: edit, delete, check')
+```
+**At the end, you would need to print the journal :)**  
