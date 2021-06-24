@@ -94,27 +94,35 @@ hit = 0
 ```  
 **So the `for loop` would look like**  
 ```python
-for turn in range(attempts): 
-    print ("Turn ", turn) 
-    guess_row = int(input("Row 0-5:")) 
-    guess_col = int(input("Col 0-5:")) 
-
-    if guess_row == ship_row and guess_col == ship_col: 
-        print("Congratulations, you've sank my ship!") 
-        break 
-    else: 
-	    if (guess_row < 0 or guess_row > len(board)) or (guess_col < 0 or guess_col > len(board)): 
-            print("Oops, these coordinates are not in our ocean.")
-
-        elif (board[guess_row][guess_col] = "X"):
-            print("you have already mentioned the coordinates.")
+for turn in range(attempts):
+    print ("Turn: ", turn)
+    guess_row = int(input("Row 0-3:"))
+    guess_col = int(input("Columns 0-3:"))
+    
+    hit = 0
+    for i in range(0, len(ships)):
+        if(ships[i] == [guess_row, guess_col]):
+            hit = 1
+            del ships[i]
+            board[guess_row][guess_col] = "S"
+            break
+        
+    if hit > 0:
+        print("Well done, you guessed")
+        if len(ships) == 0:
+            print('Yoooouu won!')
+    else:
+        if (guess_row < 0 or guess_row > len(board)) or (guess_col < 0 or guess_col > len(board)):
+            print("Oops, enter the right numbers")
+        elif(board[guess_row][guess_col] == "X"):
+            print("You have tried these numbers before(")
         else:
-	        print("Miss!")
-	        board[guess_row][guess_col] = "X"
-
-    for row in board: 
-        print((" ").join(row)) 
-
-    if turn == attempts - 1: 
-        print("The game is over! I'm sailing off into the sunset!")
+            print("Miss")
+            board[guess_row][guess_col] = "X"
+        
+    for row in board:
+        print((" ").join(row))
+    
+    if turn == attempts - 1:
+        print("Game ended")
 ```
