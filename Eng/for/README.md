@@ -84,3 +84,26 @@ else:
     for i in range(a, b - 1, -1):
         print(i)
 ```
+### Find whether dish in the list or not  
+You need to use `for` loop and `if` here
+
+```python
+str = input()
+for i in ['Apple', 'Banana', 'Pear', 'Tomato', 'Pizza']:
+    if(str == i):
+        print('The dish is in the list')
+        break
+```  
+
+### Read numbers and count the sum  
+We will use `while(True)` loop here, because we don't know how many numbers we are going to have  
+`break` the loop when number = 0
+```python
+sum = 0
+while(True):
+    x = int(input())
+    if x == 0:
+        break
+    sum += x
+print(sum)
+```
