@@ -132,4 +132,43 @@ def minutesOnWork(start,end):
 start = input("What time did you arrive")
 end = input("What time did you leave")
 print(minutesOnWork(start,end))
+```  
+
+### 7. Task with words and groups  
+**We will use formulas to calculate how more words we need to add**  
+**Each group will have `N // n` words in it, where `N` - total number of words and `n` - number of groups**
+```python
+
+# Function to divide words into groups
+def divide(list, n):
+    group_size = len(list) // n
+    res = []
+    for i in range(0, len(list), group_size):
+        # Adds group to the total list with groups
+        res.append(list[i: i + group_size])
+    return res
+    
+
+l = []
+while True:
+    word = input()
+    if word == "end of list":
+        break
+    else:
+        l.append(word)
+
+n = int(input()) # number of groups
+    
+# If we can divide
+if len(l) % n == 0: 
+    print(divide(l, n))
+else:
+    # Inputs more words
+    print("input", n - len(l) % n, " more words")
+    for i in range(n - len(l) % n):
+        word = input()
+        l.append(word)
+    print(divide(l, n))
+    
+
 ```
