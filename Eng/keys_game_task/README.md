@@ -1,4 +1,4 @@
-## In this task you need add an animation of jumping, when user presses the `space` button  
+## In this task you need to add an animation of jumping, when user presses the `space` button  
 We will use the same animations for `left and right` as we did at the lesson  
 ```python
 import pygame
