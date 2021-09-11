@@ -464,7 +464,12 @@ while running:
 
     # ----- End of the enemies
 
-    # Hero with the enemy
+   
+
+
+    # ----- Collisions
+    
+     # Hero with the enemy
     for enemy in enemies:
         if hero.colliderect(enemy):
             running = False
@@ -476,10 +481,6 @@ while running:
                 points += 1
                 bullets.remove(bullet) 
                 enemies.remove(enemy)
-
-
-    # ----- Collisions
-
 
     # ----- End of the collisions
 
